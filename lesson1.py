@@ -11,6 +11,8 @@ my_letter = input("Enter the letter that you want to print: ")
 my_range = int(input("Enter the range: "))
 for x in range(my_range):
     print(my_letter,end='')
+
+# Add some comment
  
  
 
