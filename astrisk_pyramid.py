@@ -8,4 +8,6 @@ for a in reversed(range(x)):
     for b in range(a):
         print('*',end='')
     print("") 
-#comment
+
+#comment 1
+#comment 2
