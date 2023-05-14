@@ -7,4 +7,5 @@ for x in range(5):
 for a in reversed(range(x)):
     for b in range(a):
         print('*',end='')
-    print("")
+    print("") 
+#comment
