@@ -1,13 +1,18 @@
 class Person:
-    def __init__(self, name, age):
+    def __init__(self, name, age, arr):
         self.name = name
         self.age = age
+        self.arr = arr
+
     def Greet(self):
         print(f'Hello {self.name}')
-        
-per_obj = Person("Vincent", 18)
 
-per_obj.Greet
-per_obj.Greet
-per_obj.Greet
-per_obj.Greet
+    def PrintArr(self):
+        for x in self.arr:
+            print(x, end=' ')
+
+
+my_arr = [1,2,3]
+
+per_obj = Person("Vincent", 18, my_arr)
+per_obj.PrintArr() 
