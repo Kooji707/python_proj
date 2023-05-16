@@ -10,7 +10,7 @@ class Person:
     def PrintArr(self):
         for x in self.arr:
             print(x, end=' ')
-
+#Array is iterable
 
 my_arr = [1,2,3]
 
